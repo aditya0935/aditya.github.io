@@ -1,0 +1,1 @@
+Select Department.Dname,count(Ename) from Employee Join Department on Employee.DeptNo=Department.DeptNo groupby Employee.DeptNo; 
